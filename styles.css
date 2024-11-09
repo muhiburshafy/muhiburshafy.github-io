@@ -224,8 +224,8 @@ body.dark-mode h2, body.dark-mode h3 {
 }
 
 .certification img {
-    width: auto;  /* Further increased width to 400px */
-    height: auto;
+    width: 300;  /* Further increased width to 400px */
+    height: 400;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
@@ -304,7 +304,17 @@ button {
 button:hover {
     background-color: #45a049;
 }
-@media (max-width: 768px) { header { flex-direction: column; } .header-content { flex-direction: column; align-items: flex-start; } h1, .subtitle { text-align: left; } .menu-toggle { align-self: flex-end; } #dark-mode-toggle { align-self: flex-end; margin-left: 0; } section { padding: 0.5rem; margin: 5px 0; } h1 { font-size: 1.2rem; } .subtitle { font-size: 0.9rem; } }
+@media (max-width: 768px) 
+{ header 
+{ flex-direction: column; } 
+ .header-content { flex-direction: column; align-items: flex-start; } 
+ h1, .subtitle { text-align: left; } 
+ .menu-toggle { align-self: flex-end; } 
+ #dark-mode-toggle { align-self: flex-end; margin-left: 0; } 
+ section { padding: 0.5rem; margin: 5px 0; } 
+ h1 { font-size: 1.2rem; } 
+ .subtitle { font-size: 0.9rem; } 
+}
 
 
 
