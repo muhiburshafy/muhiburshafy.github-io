@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhibur Shafy . Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Muhibur Shafy</h1>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+		
+                <ul class="nav-list">
+		    <li><button id="dark-mode-toggle">🌙</button></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#social-links">Socials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+	
+       </div>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <div class="profile-picture-container">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+            </div>
+            <div class="about-text">
+                <p>Hi, I'm [Your Name], a passionate data scientist with a vision to transform data into actionable insights. My journey in data science began with a curiosity to understand the hidden patterns in data and has evolved into a mission to use data-driven techniques to solve real-world problems.</p>
+                <p>I specialize in machine learning, statistical analysis, and data visualization. My goal is to leverage these skills to create innovative solutions that drive business success and improve decision-making processes.</p>
+                <p>Feel free to explore my projects, skills, and more by navigating through the links above.</p>
+                <p><a href="resume.pdf" class="download-resume">Download My Resume</a></p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <img src="python-icon.png" alt="Python" class="skill-icon">
+                <p>Python</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="ml-icon.png" alt="Machine Learning" class="skill-icon">
+                <p>Machine Learning</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="data-viz-icon.png" alt="Data Visualization" class="skill-icon">
+                <p>Data Visualization</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certification-category">
+                <h3>Professional Certificates</h3>
+                <div class="certification">
+                    <a href="https://coursera.org/share/ef7e729a2eda2e97aad66d5c0413782a" target="_blank">
+                        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~T0NM3E5IVEGE/CERTIFICATE_LANDING_PAGE~T0NM3E5IVEGE.jpeg" alt="Certificate 1">
+                    </a>
+                    <p>IBM Data Science Professional Certficate</p>
+                </div>
+                <!-- Add more professional certificates as needed -->
+            </div>
+            <div class="certification-category">
+                <h3>Specializations</h3>
+                <div class="certification">
+                    <a href="https://coursera.org/share/a61828dea0656a9f8df41b2d0334dec4" target="_blank">
+                        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~4R30T7QJCU7E/CERTIFICATE_LANDING_PAGE~4R30T7QJCU7E.jpeg" alt="Specialization 1">
+                    </a>
+                    <p>Applied Data Science</p>
+                </div>
+		<div class="certification">
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/V6DEOQEXZ4RV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">
+                        <img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~V6DEOQEXZ4RV/CERTIFICATE_LANDING_PAGE~V6DEOQEXZ4RV.jpeg" alt="Specialization 2">
+                    </a>
+                    <p>Introduction To Data Science</p>
+                </div>
+                <!-- Add more specializations as needed -->
+            </div>
+        </section>
+
+        <section id="social-links">
+            <h2>Socials</h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/muhiburshafy" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.kaggle.com/sunshineshafy" target="_blank">
+                    <img src="kaggle.png" alt="Kaggle">
+                </a>
+                <a href="https://www.datacamp.com/profile/sunshineshafy" target="_blank">
+                    <img src="datacamp.png" alt="DataCamp">
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
