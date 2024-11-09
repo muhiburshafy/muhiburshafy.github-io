@@ -142,8 +142,6 @@ body.dark-mode h2, body.dark-mode h3 {
     color: #ffffff;
 }
 
-/* Other styles to ensure dark mode works properly */
-
 .project-card, .testimonial, .certification-list, .skill, .profile {
     border-radius: 8px;
     padding: 1rem;
@@ -224,8 +222,8 @@ body.dark-mode h2, body.dark-mode h3 {
 }
 
 .certification img {
-    width: 100%; /* Adjust to ensure responsiveness */
-    max-width: 400px; 
+    width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -315,21 +313,23 @@ button:hover {
 
     .header-content {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Centering the items */
         padding: 0 1rem;
     }
 
     h1, .subtitle {
-        text-align: left;
+        text-align: center; /* Centering the text */
     }
 
     .menu-toggle {
-        align-self: flex-end;
+        position: absolute; /* Absolutely positioning the menu toggle */
+        right: 10px; /* Ensuring it stays on the right side */
+        top: 15px; /* Adjust this value as needed */
     }
 
     #dark-mode-toggle {
-        align-self: flex-end;
         margin-left: 0;
+        margin-top: 10px; /* Adjust margin for positioning */
     }
 
     section {
@@ -356,7 +356,7 @@ button:hover {
 
     .certification img {
         width: 100%;
-        max-width: 300px; 
+        max-width: 300px;
     }
 }
 
