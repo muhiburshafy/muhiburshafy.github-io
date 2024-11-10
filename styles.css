@@ -41,6 +41,16 @@ header {
 h1 {
     margin: 0;
 }
+.header-content h1 a, 
+.nav-list li button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 .subtitle {
     margin: 0;
