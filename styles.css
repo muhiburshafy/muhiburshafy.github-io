@@ -272,7 +272,8 @@ body.dark-mode h2, body.dark-mode h3 {
 }
 
 .certification img {
-    width: 600px;  /* Further increased width to 400px */
+    width: 100%;
+    max-width: 600px;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
