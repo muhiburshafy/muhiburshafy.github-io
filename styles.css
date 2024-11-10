@@ -144,18 +144,56 @@ body.dark-mode h2, body.dark-mode h3 {
 
 
 
-.project-card, .testimonial, .certification-list, .skill, .profile {
+.project-card {
     border-radius: 8px;
     padding: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    background-color: transparent;
+    margin-bottom: 1.5rem;
+    background-color: inherit; /* Blend with the body */
+    box-shadow: none; /* Remove the box shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.profile-picture-container {
+.project-card:hover {
+    transform: translateY(-10px);
+    /* No box shadow on hover */
+}
+
+.project-visualization {
+    width: 100%;
+    margin-top: 1rem;
+    background: none;
+    border-radius: 8px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.project-thumbnail {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+.project-details {
+    text-align: center;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #45a049;
 }
 
 .profile-picture {
