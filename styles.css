@@ -416,12 +416,12 @@ button:hover {
         flex-direction: column;
         align-items: center;
         padding: 0 1rem;
-        width: 100%;
+        width: auto; /* Set width to auto */
     }
 
     h1, .subtitle {
         text-align: center;
-        width: 100%;
+        width: auto; /* Set width to auto */
         margin-bottom: 0.5rem; /* Added margin to avoid overlapping */
     }
 
@@ -445,15 +445,18 @@ button:hover {
     .header-content {
         align-items: center;
         padding: 0 0.5rem;
+        width: auto; /* Set width to auto */
     }
 
     h1 {
         font-size: 1.2rem;
+        width: auto; /* Set width to auto */
         margin-bottom: 0.5rem; /* Added margin to avoid overlapping */
     }
 
     .subtitle {
         font-size: 0.9rem;
+        width: auto; /* Set width to auto */
         margin-bottom: 0.5rem; /* Added margin to avoid overlapping */
     }
 
@@ -479,18 +482,18 @@ button:hover {
         flex-direction: row;
         align-items: center;
         padding: 0 2rem;
-        width: 100%;
+        width: auto; /* Set width to auto */
     }
 
     h1 {
         font-size: 1.8rem;
-        width: auto;
+        width: auto; /* Set width to auto */
         margin-bottom: 0; /* Ensured proper spacing */
     }
 
     .subtitle {
         font-size: 1.1rem;
-        width: auto;
+        width: auto; /* Set width to auto */
         margin-bottom: 0; /* Ensured proper spacing */
     }
 
@@ -504,5 +507,4 @@ button:hover {
         margin: 0 0 0 1rem;
     }
 }
-
 
